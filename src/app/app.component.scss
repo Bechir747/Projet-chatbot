@@ -1,0 +1,71 @@
+.card{
+    width: 320px;
+    height: 500px;
+    background: linear-gradient(0deg, #ffffff, #ff2600);
+    color:#fff ;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu{
+    margin: 0;
+    background: #ffffff;
+    color: #373737;
+    border-radius: 0 0 20px 20px;
+    padding: 30px 35px;
+    display: felx;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+
+}
+
+// .card {
+//     display: flex;
+//     flex-direction: column;  /* Stack children vertically */
+//     align-items: center;     /* Horizontally center the content */
+//     justify-content: space-between; /* Add space between the router-outlet and menu */
+//     height: 100%;            /* Set full height of the card */
+//     border: 1px solid #ccc;  /* Optional: border for visualization */
+//     padding: 20px;           /* Add padding */
+// }
+
+.router-outlet {
+    flex: 1;                /* Allow router-outlet to grow and take remaining space */
+    width: 100%;            /* Full width */
+}
+
+// .menu {
+//     display: flex;          /* Use flexbox for menu */
+//     justify-content: space-around; /* Distribute items evenly */
+//     width: 100%;            /* Full width */
+// }
+
+
+.menu-button {
+    color: #373737;
+    display: flex;
+    flex-direction: column;
+    padding: 0;             /* Remove padding */
+    margin: 0;              /* Remove margin */
+    border: none;           /* Remove border */
+    background: none;       /* Remove background */
+    font-size: inherit;     /* Use inherit font size */
+    color: inherit;         /* Use inherit text color */
+    cursor: pointer;        /* Pointer cursor */
+    text-decoration: none;  /* Remove underline */
+    transition: color 0.3s ease;      /* Remove transition */
+}
+
+.menu-button:hover{
+    color: #ff2600; 
+}
+.menu-button i {
+    margin-left: 10px;
+    text-align: center;
+}
+

@@ -7,13 +7,15 @@ import { HomeComponent } from './home/home.component';
 import { MessagesComponent } from './messages/messages.component';
 import { HelpComponent } from './help/help.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MessagesComponent,
-    HelpComponent
+    HelpComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
